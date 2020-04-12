@@ -44,22 +44,34 @@ pyenv global system
 nodenv  global 12.10.0
 node -v
 # 12.10.0が出たら成功
+yarn -v
+# なんかバージョン出たら成功
 ```
 
 
+## ソース取得
+
 ```
-cd $PROJECT_DIR/lp
-# 関連ライブラリINSTALL
-yarn
+cd 設置するdir
+git clone https://github.com/umentu/shibuya_jazz
 ```
+
 
 ## 起動
 
 ```
+cd shibuya_jazz/lp
 yarn dev
 ```
 
 localhost:3000にアクセス
+
+## VS Code起動
+
+```
+cd 設置したdir/shibuya_jazz/lp
+code .
+```
 
 ## ファイル
 とりあえず使うのは
