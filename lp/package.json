@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/style-resources": "^1.0.0",
     "cross-env": "^5.2.0",
     "micro": "^9.3.3",
     "micro-route": "^2.5.0",
